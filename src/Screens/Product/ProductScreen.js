@@ -21,7 +21,6 @@ export default function ProductScreen(props) {
                     return x
                 }
             })
-            console.log(temp2);
             dispatch(addToCartReducer(temp2))
         }
         else {

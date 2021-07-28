@@ -10,7 +10,6 @@ export default function HeaderComp() {
 
     const openCart = () => {
         setOpenClose(!openClose)
-        console.log(cartData);
     }
 
     const cartData = useSelector((state) => state.cartData)
